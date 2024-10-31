@@ -67,3 +67,47 @@ hr {
     font-weight: 500;
     border-radius: 3px;
 }
+.chat-body {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.date {
+    width: 94%;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    line-height: 0.1em;
+    margin: 15px auto;
+}
+
+.date span {
+    background: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #dedede;
+}
+
+.time {
+    font-size: 12px;
+    opacity: .3;
+    font-weight: 500;
+    line-height: 5px;
+    padding-bottom: 0px;
+}
+
+.received {
+    text-align: right;
+}
+
+.received-message .msg-body {
+    background-color: #f2f2f2;
+    float: right;
+    margin-right: 15px;
+}
+
+.received-message .msg-body.banned {
+    background-color: #ffc2c1;
+    margin-right: 0px;
+}
+
