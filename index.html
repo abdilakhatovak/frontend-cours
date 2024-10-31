@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMS</title>
     <link rel="stylesheet" href="styles.css">
+    <title>sms</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="message-column">
+            <div class="col-sm-4 message">
                 <div class="sender">
-                    <div id="avatar"></div>
-                    <p class="mark">Mark Zuckerberg</p>
-                    <img class="exit" src="img\close.svg" alt="close">
+                    <div id="circle"></div>
+                    <p class="name">Mark Zuckenberg</p>
+                    <img class="exit" src="img\close.svg" alt="close button">
                 </div>
-                <div class="body">
+                <div class="chat-body">
                     <p class="date"><span>today</span></p>
                     <div class="sent-message">
                         <p class="time sent">10:53</p>
-                        <div class="msg-body">
+                        <div class="msg-body tri-right left-top">
                             <div class="talktext">
                                 <p>Hi, Mark! I made a new design for Messenger App.</p>
                             </div>
                         </div>
                     </div>
+                    <div class="clear"></div>
                     <div class="received-message">
-                        <p class="time">10:57</p>
-                        <div class="msg-body">
+                        <p class="time received">10:57</p>
+                        <div class="msg-body tri-right right-top">
                             <div class="talktext">
                                 <p>Yo! Send it to my assistant and we'll review it during the year.</p>
                             </div>
                         </div>
                     </div>
+                    <div class="clear"></div>
                     <div class="sent-message">
                         <p class="time sent">11:03</p>
                         <div class="msg-body tri-right left-top">
@@ -41,6 +43,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="clear"></div>
                     <div class="received-message">
                         <div class="msg-body banned">
                             <div class="talktext">
@@ -48,18 +51,16 @@
                             </div>
                         </div>
                     </div>
-                                    <hr>
-                <form class="form-inline">
-                    <div class="form-group">
-                        <input class="form-control form-control-sm" type="text" placeholder="Enter your message">
-                    </div>
-                    <button type="submit" class="btn btn-primary mb-2">SEND</button>
-                </form>
+                    <div class="clear"></div>
+                    <hr>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input class="form-control form-control-sm" type="text" placeholder="Enter your message">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">SEND</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-
-        
+        </div></div>
 </body>
 </html>

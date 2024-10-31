@@ -96,7 +96,7 @@ hr {
     padding-bottom: 0px;
 }
 
-.received {
+.received-message .msg-body {
     text-align: right;
 }
 
@@ -110,4 +110,88 @@ hr {
     background-color: #ffc2c1;
     margin-right: 0px;
 }
+/* chatt bubbles triangles */
+.tri-right .left-top:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #e6edf6 transparent transparent transparent;
+}
+
+.tri-right.left-top:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -15px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 15px solid;
+    border-color: #e6edf6 transparent transparent transparent;
+}
+
+.tri-right.right-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: auto;
+	right: -15px;
+    top: 0;
+	border: 15px solid;
+	border-color: #f2f2f2 transparent transparent transparent;
+}
+
+.tri-right.right-top:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: auto;
+	right: -20px;
+    top: 0px;
+	border-color: #f2f2f2 transparent transparent transparent;
+}
+
+.form-group {
+    width: 80%;
+}
+
+.form-control {
+    border: none;
+    margin-top: 0px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.btn {
+    background-color: transparent;
+    color: #6a96d8;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    border: none;
+    height: 20px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #6a96d8;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    border: none;
+    height: 20px; 
+}
+
 
