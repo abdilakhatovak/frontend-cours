@@ -89,10 +89,10 @@ hr {
 }
 
 .time {
-    font-size: 12px;
-    opacity: .3;
-    font-weight: 500;
-    line-height: 5px;
+    font-size: 14px;       
+    color: #6a96d8;        
+    font-weight: 600;      
+    line-height: 10px;     
     padding-bottom: 0px;
 }
 
