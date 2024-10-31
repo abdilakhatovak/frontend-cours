@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -14,7 +15,51 @@
                     <p class="mark">Mark Zuckerberg</p>
                     <img class="exit" src="img\close.svg" alt="close">
                 </div>
-                <div class="chat-body">
-                    <p class="date"><span>today</span></p>    
+                <div class="body">
+                    <p class="date"><span>today</span></p>
+                    <div class="sent-message">
+                        <p class="time sent">10:53</p>
+                        <div class="msg-body">
+                            <div class="talktext">
+                                <p>Hi, Mark! I made a new design for Messenger App.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="received-message">
+                        <p class="time">10:57</p>
+                        <div class="msg-body">
+                            <div class="talktext">
+                                <p>Yo! Send it to my assistant and we'll review it during the year.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sent-message">
+                        <p class="time sent">11:03</p>
+                        <div class="msg-body tri-right left-top">
+                            <div class="talktext">
+                                <p>But Mark...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="received-message">
+                        <div class="msg-body banned">
+                            <div class="talktext">
+                                <p>You were blocked by the user.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <hr>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input class="form-control form-control-sm" type="text" placeholder="Enter your message">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
 </body>
 </html>
