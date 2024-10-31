@@ -1,4 +1,4 @@
 # изменение
-![origin](img\мой.png)
-![mywork](img\оригинал.png)
+![origin](img\оригинал.png)
+![mywork](img\моя-работа.png)
 (есть в файле img)
