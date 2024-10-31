@@ -1,29 +1,30 @@
 body {
     font-family: Roboto, sans-serif;
-    background: #aac8d8
+    background: rgb(134,165,192);
+background: radial-gradient(circle, rgba(134,165,192,1) 0%, rgba(202,217,230,1) 100%);
 }
-
 .clear {
     clear: both;
 }
-
 hr {
     width: 96%;
 }
 
-.message-column {
-    padding: 0px;
+.message {
+    width: 400px;          
+    padding: 0;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 100px;     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
 }
-
 .sender {
-    background-color: #4b82db;
+    background-color: #6a96d8;
     padding: 15px;
 }
 
-#avatar {
-    background-color: white;
+#circle {
+    background-color: #fff;
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -36,7 +37,7 @@ hr {
 .name {
     display: inline;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     font-weight: 700;
     letter-spacing: .1em;
     font-size: 12px;
@@ -53,25 +54,10 @@ hr {
     cursor: pointer;
     opacity: 1;
 }
-
-.msg-body {
-    margin-top: -5px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    display: inline-block;
-    position: relative;
-    max-width: 66%;
-    background-color: #e6edf6;
-    padding: 10px 10px 0px 10px;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 3px;
-}
 .chat-body {
     padding: 15px;
     background-color: #fff;
 }
-
 .date {
     width: 94%;
     text-align: center;
@@ -87,17 +73,28 @@ hr {
     font-size: 12px;
     color: #dedede;
 }
-
 .time {
-    font-size: 14px;       
-    color: #6a96d8;        
-    font-weight: 600;      
-    line-height: 10px;     
+    font-size: 12px;
+    opacity: .3;
+    font-weight: 500;
+    line-height: 5px;
     padding-bottom: 0px;
 }
-
-.received-message .msg-body {
+.received {
     text-align: right;
+}
+.msg-body {
+    margin-top: -5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    max-width: 66%;
+    background-color: #e6edf6;
+    padding: 10px 10px 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
 }
 
 .received-message .msg-body {
@@ -142,40 +139,39 @@ hr {
 	position: absolute;
 	width: 0;
 	height: 0;
-    left: auto;
+  left: auto;
 	right: -15px;
-    top: 0;
+  top: 0;
+	bottom: auto;
 	border: 15px solid;
 	border-color: #f2f2f2 transparent transparent transparent;
 }
-
-.tri-right.right-top:after {
+.tri-right.right-top:after{
 	content: ' ';
 	position: absolute;
 	width: 0;
 	height: 0;
-    left: auto;
+  left: auto;
 	right: -20px;
-    top: 0px;
+  top: 0px;
+	bottom: auto;
 	border-color: #f2f2f2 transparent transparent transparent;
 }
 
+/* input */
 .form-group {
     width: 80%;
 }
-
 .form-control {
     border: none;
     margin-top: 0px;
     height: 20px;
     padding-left: 15px;
 }
-
 .form-control:focus {
     border: none;
     box-shadow: none;
 }
-
 .btn {
     background-color: transparent;
     color: #6a96d8;
@@ -186,7 +182,7 @@ hr {
 }
 
 .btn:hover {
-    background-color: transparent;
+   background-color: transparent;
     color: #6a96d8;
     font-weight: 700;
     font-family: Roboto, sans-serif;
